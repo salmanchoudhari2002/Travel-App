@@ -30,21 +30,14 @@ This version is prepared for **CI/CD pipelines** using **Jenkins**, **Maven**, a
 ## 📂 Project Structure
 
 ```
-TravelApp/
+Travel-App/
 │
-├─ pom.xml              # Maven configuration & dependencies
-├─ README.md
-│
-├─ src/
-│   ├─ main/java/com/travelapp/
-│   │   ├─ App.java
-│   │   ├─ Destination.java
-│   │   └─ TravelManager.java
-│   └─ resources/
-│       └─ data.txt
-│
-└─ src/test/java/com/travelapp/
-    └─ AppTest.java
+├── Destination.java       # Class likely representing travel destinations
+├── Main.java              # Main class to run the application
+├── POM.xml                # Maven build configuration file
+├── README.md              # Project documentation
+└── TravelService.java     # Business logic/service layer for travel functionality
+
 ```
 
 ---
