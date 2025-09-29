@@ -1,5 +1,5 @@
 ```markdown
-# 🌍 Travel App - DevOps Re
+# 🌍 Travel App - DevOps Ready
 
 Welcome to **Travel App**, a simple **Java console-based application** to manage travel destinations.  
 
