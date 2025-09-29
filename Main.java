@@ -13,7 +13,7 @@ public class Main {
         
         // 2. Add sample destinations
         System.out.println("\n[Action 1] Adding Destinations:");
-        service.addDestination(new Destination("Kyoto", "Japan", 6));
+        service.addDestination(new Destination("Kyoto", "Japan", 5));
         service.addDestination(new Destination("Machu Picchu", "Peru", 5));
         service.addDestination(new Destination("Dubai", "UAE", 4));
         service.addDestination(new Destination("London", "United Kingdom", 4));
