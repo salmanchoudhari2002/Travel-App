@@ -30,7 +30,7 @@ public class Main {
             .forEach(System.out::println);
 
         // 5. Find high-rated destinations
-        service.printHighRatedDestinations(4);
+        service.printHighRatedDestinations(5);
 
         System.out.println("\n--- Travel Application Finished ---");
     }
