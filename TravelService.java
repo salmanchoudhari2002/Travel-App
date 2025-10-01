@@ -58,6 +58,6 @@ public class TravelService {
         System.out.println("\n--- Destinations with Rating >= " + minRating + "/5 ---");
         this.destinations.stream()
             .filter(d -> d.getRating() >= minRating)
-            
+            .forEach(System.out::println);
     }
 }
